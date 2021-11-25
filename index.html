@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="item-container-1">
+            <div class="img-logo">
+                <img src="map.png" alt="">
+                <h1>Busque endereço pelo CEP!</h1>
+            </div>
+            <form action="">
+                <legend>Pesquisar endereço</legend>
+                <input type="text" name="cep" id="cep" placeholder="Digite o CEP: ">
+             
+                <input type="button" value="Buscar" id="btn">
+            </form>
+        </div>
+        <div class="item-container-2">
+            <h1 class="res">Resultado da pesquisa: </h1>
+            <input type="text" name="city" id="city" placeholder="Cidade">
+            <input type="text" name="estado" id="estado" placeholder="Estado">
+            <input type="text" name="rua" id="rua" placeholder="Rua">
+            <input type="text" name="bairro" id="bairro" placeholder="Bairro">
+            <input type="button" value="Copiar texto" class="copy">
+        </div>
+    </div>
+
+    
+    
+</body>
+<script src="script.js"></script>
+</html>
